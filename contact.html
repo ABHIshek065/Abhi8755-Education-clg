@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#Zxi School Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a362fb6388.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <img src="logo2.png" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fas fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a  href="course.html">Courses</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="about-home">
+        <h2>//Contact US//</h2>
+    </section>
+
+   <section id="contact">
+    <div class="getin">
+        <h2>Get in touch</h2>
+        <p>Looking for help? Fill form and start a new adventure.</p>
+
+
+        <div class="getin-details">
+            <h3>Headquators</h3>
+            <div>
+                <i class="fas fa-home get"></i>
+                <p>D-65 Argentina town sisura Landon 87953</p>
+            </div>
+            <h3>Phones</h3>
+            <div>
+                <i class="fas fa-phone get"></i>
+                <p>(+742) 245 654 765 <br>(+962) 245 654 725 </p>
+            </div>
+            <h3>Support</h3>
+            <div>
+                <i class="fas fa-envelope-open get"></i>
+                <p>aqz.abhi@gmail.com <br> help@zxi.com</p>
+            </div>
+            <h3>Follow Us</h3>
+            <div class="pro-links">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form">
+        <h4>Let's Connect</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        <div class="form-row">
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Email">
+        </div>
+
+        <div class="form-col">
+            <input type="text" placeholder="Subject">
+        </div>
+
+        <div class="form-col">
+            <textarea name="" id="" cols="30" rows="8" placeholder="How  can we help?"></textarea>
+        </div>
+
+        <div class="form-col">
+         <button>Send Message</button>
+        </div>
+
+    </div>
+
+   </section>
+
+
+   <section id="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d497699.9973974844!2d77.35073950168004!3d12.953847720537887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1662404751333!5m2!1sen!2sin"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </section>
+
+
+    <!-- footer -->
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage reputations</li>
+            <li>Power tools</li>
+            <li>Managed Websites</li>
+            <li>Marketing Services</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>Copyright Statement</li>
+            <li>Hyperlinking Policy</li>
+            <li>Terms & Conditions</li>
+            <li>Disclaimer</li>
+        </div>
+        <div class="footer-col">
+            <h3>POLICY</h3>
+            <li>Return Policy</li>
+            <li>Terms Of Use</li>
+            <li> Security</li>
+            <li> Privacy</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Research</li>
+            <li>Expert</li>
+            <li>Marketing Services</li>
+            <li> Security</li>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Lorem ipsum dolor sit.</p>
+            <div class="subscribe">
+                <input type="text" name="" placeholder="Enter Your Email">
+                <a class="yellow" href="#">SUBSCRIBE</a>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2022 ALL Rights Reserved <i class="fas fa-heart"></i> Made By zxiAbhi.</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active')
+        });
+
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active')
+        });
+    </script>
+</body>
+
+</html>
